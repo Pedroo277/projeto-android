@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+
+root {
+    --cor0: #ebe5c5;
+    --cor1: #83e1ab;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    background-image: linear-gradient(rgb(10, 56, 25), rgb(16, 75, 16));
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    min-height: 150px;
+}
+
+header>h2 {
+    padding: 1px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    color: rgba(240, 248, 255, 0.747);
+}
+
+nav {
+    text-align: left;
+    color: rgb(214, 214, 214);
+}
+
+nav>a {
+    text-decoration: none;
+    color: rgb(214, 214, 214);
+    padding: 10px;
+    transition-duration: 0.6s;
+    font-weight: bold;
+}
+
+nav>a:hover {
+    font-weight: bold;
+    background-color: #007233;
+}
+
+@font-face {
+    font-family: Idroid;
+    src: url(idroid.otf);
+}
+
+main {
+    max-width: 1000px;
+    min-width: 300px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+main img {
+    width: 100%;
+}
+
+main>#artigo1 {
+    background-color: white;
+    padding: 30px;
+    outline: 0px;
+}
+
+main>.artigo2 {
+    background-color: white;
+    padding: 30px;
+    outline: 0px;
+}
+
+main>.artigo3 {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    outline: 0px;
+}
+
+.links {
+    background-color: #3ddc84;
+    text-decoration: none;
+    color: #063d1e;
+
+}
+
+article>h1 {
+    color: rgb(0, 128, 53);
+    font-size: 200%;
+    padding: 1px;
+}
+
+article>h2 {
+    color: green;
+    background-image: linear-gradient(to right, rgb(177, 212, 177), transparent);
+}
+
+article>p {
+    text-align: justify;
+}
+
+article>img {
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+
+#video {
+    margin: 0px;
+    padding: 20px;
+    background-color: #063d1e;
+    padding-bottom: 55%;
+    position: relative;
+}
+
+article>iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.artigo3>h3 {
+    background-color: #063d1e;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.artigo3>aside {
+    background-color: #a1d3b7;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 0px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.26)
+}
+
+aside>ul {
+    columns: 2;
+}
+
+footer {
+    color: rgba(255, 255, 255, 0.637);
+    text-align: center;
+}
